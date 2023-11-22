@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 1 - Exercício C - Página 40">
+    <title>Capítulo 1 - Exercício C</title>
+</head>
+<body>
+    <h4>Capítulo 1 - Exercício C - Página 40</h4>
+    <p>
+        Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja.<br>
+        Calcule e informe o valor para pagamento à vista com 10% de desconto e valor em 3x.
+        <br><br>
+        Exemplo: 
+        <br>
+        Preço R$: 60.00
+        Á vista R$: 54.00
+        Ou 3x de R$: 20.00
+    </p>
+
+    <script>
+        let preco = Number(prompt("Qual o preço do produto?"));
+        const pagVista = preco - (preco * 0.10);
+        const pagDividido = preco / 3;
+
+        alert(`Preço R$: ${preco.toFixed(2)} \nÀ vista R$: ${pagVista.toFixed(2)} \n Ou 3x de R$: ${pagDividido.toFixed(2)}`);
+
+    </script>
+    
+</body>
+</html>

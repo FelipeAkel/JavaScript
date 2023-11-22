@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 1 - Exemplo 7 - Página 37">
+    <title>Capítulo 1 - Exemplo 7</title>
+</head>
+<body>
+    <h4>Capítulo 1 - Exemplo 7 - Página 37</h4>
+    <p>Elabore um progranma que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom(10%) e o valor total a ser pago.</p>
+    <script>
+        const jantar = Number(prompt("Qual o valor do jantar?"));
+        let taxaGarcon = jantar * 0.10;
+        let totalPagar = jantar + taxaGarcon;
+
+        alert("Taxa Garçom R$: " + taxaGarcon.toFixed(2) + "\nO total a pagar R$ " + totalPagar.toFixed(2));
+        // toFixed(2) determina quantas casas decimais. Ex: 50.54
+    </script>
+</body>
+</html>

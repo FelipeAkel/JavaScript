@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 1 - Exercício B - Página 40">
+    <title>Capítulo 1 - Exercício B</title>
+</head>
+<body>
+    <h4>Capítulo 1 - Exercício B - Página 40</h4>
+    <p>
+        Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos cliente vão pagá-la.
+        Cálcule e informe o valor a ser pago por cliente.</p>
+
+    <script>
+        const totalConta = Number(prompt("Valor total da conta?"));
+        const clientes = Number(prompt("Quantos clientes vão pagar?"));
+        let valorPagarCliente = totalConta / clientes;
+        alert(`Total conta: ${totalConta} \nTotal Clientes: ${clientes} \nValor a pagar por cliente: ${valorPagarCliente.toFixed(2)}`);
+    </script>
+</body>
+</html>
