@@ -5,6 +5,9 @@
 Repositório contendo os algoritmos de JavaScript abordados neste livro. 
 Fonte de estudo e aprofundamento da linguagem JavaScript.
 
+    Cap 01. Introdução (Pág. 11 a 40)
+    Cap 02. Integração com HTML (Pág. 42 a 61)
+
 ## Git e GitHub
 
 Revisão dos comando Git
@@ -13,4 +16,4 @@ Revisão dos comando Git
 - Análise dos commits;
 
 
-<p align="center"><b>Versão 1.0.0</b></p>
+<p align="center"><b>Versão 2.0.0</b></p>

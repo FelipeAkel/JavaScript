@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 2 - Exercício A - Página 60">
+    <title>Capítulo 2 - Exercício A</title>
+</head>
+<body>
+    <h1>Capítulo 2 - Exercício A - Página 60</h1>
+    <!-- Uma farmácio está com uma promoção.
+        Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total.
+        Elaborar um programa que leia descrição e preço de um medicamento..
+        Informe o valor do produto na promoção.
+    -->
+    <hr>
+    <h2>Farmácia JS</h2>
+    <form>
+        <label for="inMedicamento">Medicamento: </label>
+        <input type="text" name="inMedicamento" id="inMedicamento" required>
+        <br>
+        <label for="inPreco">Preço: </label>
+        <input type="number" name="inPreco" id="inPreco" min="0" step="0.01" required>
+        <br>
+        <input type="submit" value="Mostrar Promoção">
+    </form>
+    <h3 id="retornoMedicamento" ></h3>
+    <h3 id="retornoValorTotal" ></h3>
+
+    <script src="js/resp2_a.js"></script>
+</body>
+</html>

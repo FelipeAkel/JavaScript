@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 2 - Exercício B - Página 60">
+    <title>Capítulo 2 - Exercício B</title>
+</head>
+<body>
+    <h1>Capítulo 2 - Exercício B - Página 60</h1>
+    <!-- Elaborar um programa para uma lan hause de um aeroporto.
+        O programa deve ler o valor em minutos de uso de um computador e o tempo de uso por um cliente em minutos.
+        Informa o valor a ser pago pelo clietne, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.
+    -->
+    <hr>
+    <h2>Lan Hause JS</h2>
+    <form>
+        <label for="inValor">Valor por 15min de uso R$: </label>
+        <input type="number" name="inValor" id="inValor" min="0" step="0.01" required>
+        <br>
+        <label for="inTempo">Tempo de uso do cliente: </label>
+        <input type="number" name="inTempo" id="inTempo" min="0" required>
+        <br>
+        <input type="submit" value="Calcular Valor a Pagar">
+    </form>
+    <h3 id="retornoValorTotal" ></h3>
+
+    <script src="js/resp2_b.js"></script>
+</body>
+</html>

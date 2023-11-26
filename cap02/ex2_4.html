@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 2 - Exemplo 4 - Página 58">
+    <title>Capítulo 2 - Exemplo 4</title>
+</head>
+<body>
+    <h1>Capítulo 2 - Exemplo 4 - Página 58</h1>
+    <hr>
+    <h2>Restaurante JS</h2>
+    <!-- Elaborar um programa para um restaurante que leia o preço po kg e o consumo (em gramas) de um clietne.
+        Exiba o valor a ser pago, conforme ilustra o exemplo.
+        Quilo: 50.50
+        Consumo gramas: 500
+        Respsota do valor a ser pago: 29.25
+    -->
+    <form>
+        <label for="inQuilo">Buffet por Quilo R$: </label>
+        <input type="number" step="0.01" name="inQuilo" id="inQuilo">
+        <br>
+        <label for="inGramas">Consumo do Cliente (gr): </label>
+        <input type="number" step="0.01" name="inGramas" id="inGramas">
+        <br>
+        <input type="submit" value="Calcular Preço">
+    </form>
+
+    <h3 id="retornoValorPagar" ></h3>
+
+    <script src="js/ex2_4.js" ></script>
+</body>
+</html>
