@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 4 - Exemplo 1 - Página 74">
+    <title>Capítulo 4 - Exemplo 1</title>
+</head>
+<body>
+    <h1>Capítulo 4 - Exemplo 1 - Página 74</h1>
+    <hr>
+    <h2>Programa Situação do Aluno</h2>
+    <form>
+        <label for="inAluno">Nome do Aluno: </label>
+        <input type="text" name="inAluno" id="inAluno" required>
+        <br>
+        <label for="inNota1">1º Nota: </label>
+        <input type="number" name="inNota1" id="inNota1" min="0" max="10" step="0.01" required>
+        <br>
+        <label for="inNota2">2º Nota: </label>
+        <input type="number" name="inNota2" id="inNota2" min="0" max="10" step="0.01" required>
+        <br>
+        <div id="retornoRecuperacao" style="display: none;">
+            <label for="inNotaRecupercao">Nota de Recupercao: </label>
+            <input type="number" name="inNotaRecupercao" id="inNotaRecupercao" min="0" max="10" step="0.01" >
+        </div>
+        <br>
+        
+
+        <input type="submit" value="Exibir Média e Situação">
+    </form>
+
+    <h3 id="retornoMedia" ></h3>
+    <h3 id="retornoMensagem"></h3>
+
+    <script src="js/ex4_1.js"></script>
+</body>
+</html>

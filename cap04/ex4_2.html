@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 4 - Exemplo 2 - Página 81">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Capítulo 4 - Exemplo 2</title>
+</head>
+<body>
+    <h1 class="titulo">Capítulo 4 - Exemplo 2 - Página 81</h1>
+    <hr>
+    <img src="img/ex4_2.jpg" alt="Balança de Peso">
+    <h2 class="sub-titulo">Programa Cálculo do Peso Ideal</h2>
+    <form>
+        <label for="inNome">Nome: </label>
+        <input type="text" name="inNome" id="inNome" required>
+        <br>
+        <label for="inSexo">Sexo: </label>
+        <input type="radio" name="inSexo" id="inSexoMasculino" value="M" required>Masculinno
+        <input type="radio" name="inSexo" id="inSexoFeminino" value="F" required>Feminino
+        <br>
+        <label for="inAltura">Altura</label>
+        <input type="number" name="inAltura" id="inAltura" min="0" step="0.01" required>
+        <br><br>
+        <input type="submit" value="Calcular Peso Ideal">
+        <input type="reset" value="Limpar Campos">
+    </form>
+
+    <h3 id="retornoPesoIdeal"></h3>
+
+    <script src="js/ex4_2.js"></script>
+</body>
+</html>

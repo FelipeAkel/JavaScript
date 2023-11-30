@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    padding: 20px;
+}
+
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.sub-titulo{
+    margin-bottom: 10px;
+    border-bottom-style: inset; 
+}

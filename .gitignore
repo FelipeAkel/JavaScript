@@ -1,4 +1,10 @@
+node_modules
+package-lock.json
+package.json
+
 /livrojs
 /cap01/praticando.html
 /cap02/praticando.html
 /cap02/js/praticando.js
+/cap04/praticando.html
+/cap04/js/praticando.js
