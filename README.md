@@ -17,4 +17,4 @@ Revisão dos comando Git
 - Análise dos commits;
 
 
-<p align="center"><b>Versão 3.0.0</b></p>
+<p align="center"><b>Versão 4.0.2</b></p>
