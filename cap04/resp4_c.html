@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 4 - Exercício C - Página 94">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Capítulo 4 - Exercício C</title>
+</head>
+<body>
+    <!-- Elaborar um programa para simular um parquímetro, o qual leia o valor de moedas depositado em um terminal de estacionamento rotativo.
+        O programa deve informar o tempo de perminência do veículo no local e o troco (se existir), como no exemplo. 
+        Se o valor for inferior ao tempo mínimo, exiba a mensagem: "Valor Insificiente".
+        
+        Valor R$    Tempo
+        1,00        30 min
+        1,75        60 min
+        3,00        120 min
+    -->
+    <h1>Capítulo 4 - Exercício C - Página 94</h1>
+    <hr>
+    <img src="img/exerc.jpg" alt="Imagem do Exercício">
+    <h2 class="sub-titulo">Programa Parquímetro</h2>
+    <form>
+        <label for="inValor">Valor R$: </label>
+        <input type="number" name="inValor" id="inValor" min="0" step="0.01" required>
+        <br><br>
+        <input type="submit" value="Confirmar Depósito">
+    </form>
+    <br>
+    <h3 id="retornoTempo"></h3>
+    <h3 id="retornoTroco"></h3>
+
+    <script src="js/resp4_c.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 4 - Exercício B - Página 93">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Capítulo 4 - Exercício B</title>
+</head>
+<body>
+    <!-- Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor.
+        Se a velocidade for inferior ou igual à permitida, exiba "Sem Multa".
+        Se a velocidade for de até 20% maior que a permitida, exiba "Multa Leve". 
+        E, se a velocidade for superior a 20% da velocidade permitida. exiba "Multa Grave". 
+    -->
+    <h1>Capítulo 4 - Exercício B - Página 93</h1>
+    <hr>
+    <img src="img/exerc.jpg" alt="Imagem do Exercício">
+    <h2 class="sub-titulo">Programa Verifica Velocidade</h2>
+    <form>
+        <label for="inVelPermitida">Velocidade Permitida: </label>
+        <input type="number" name="inVelPermitida" id="inVelPermitida" min="0" required>
+        <br>
+        <label for="inVelCondutor">Velocidade Condutor: </label>
+        <input type="number" name="inVelCondutor" id="inVelCondutor" min="0" required>
+        <br><br>
+        <input type="submit" value="Verificar Velocidade">
+    </form>
+    <br>
+    <h3 id="retornoSituacao"></h3>
+
+    <script src="js/resp4_b.js"></script>
+</body>
+</html>
