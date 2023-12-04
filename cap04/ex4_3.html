@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 4 - Exemplo 3 - Página 84">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Capítulo 4 - Exemplo 3</title>
+</head>
+<body>
+    <h1>Capítulo 4 - Exemplo 3 - Página 84</h1>
+
+    <script>
+        const bairro = (prompt("Bairros: Asa Sul, Asa Norte, Sobradinho, Planaltina;\nBairro de Entrega:" ));
+        let taxaEntrega = null;
+
+        switch(bairro){
+            case 'Asa Sul':
+                taxaEntrega = 5.00;
+                break;
+            case 'Asa Norte':
+                taxaEntrega = 10.50;
+                break;
+            case 'Sobradinho':
+            case 'Planaltina':
+                taxaEntrega = 15.30;
+                break;
+            default:
+                taxaEntrega = 22.99;
+        }
+
+        alert(`Taxa R$: ${taxaEntrega.toFixed(2)}`);
+
+    </script>
+
+</body>
+</html>
