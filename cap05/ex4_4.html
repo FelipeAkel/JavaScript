@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 5 - Exemplos 4 - Página 107">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <!-- <link rel="stylesheet" href="css/estilo.css"> -->
+
+    <title>Capítulo 5 - Exemplos 4</title>
+</head>
+
+<body>
+    <h1>Capítulo 5 - Exemplos 4 - Página 107</h1>
+
+    <hr>
+    
+    <script>
+
+        alert('Digite o valor 0 para sair!');
+
+        let numero;
+
+        do{
+            numero = Number(prompt('Digite um número: \nSe Número é par dobro, senão será o triplo.'));
+            
+            if(numero == 0 || isNaN(numero)){
+                const sair = confirm('Comfirmar saída?');
+                console.log(sair);
+                if(sair == true){
+                    break;
+                } else {
+                    continue;
+                }
+            }
+            
+            
+            if(numero % 2 == 0){
+                let dobro = numero * 2;
+                alert(`O dobro de ${numero} é: ${dobro}`);
+            } else {
+                let triplo = numero * 3;
+                alert(`O triplo de ${numero} é ${triplo}`);
+            }
+        }while(true);
+
+        alert('Bye, Bye...');
+
+    </script>
+
+</body>
+
+</html>

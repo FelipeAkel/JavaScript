@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Aspectos de compatibilidade entre navegadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Criação de páginas responsivas | desktop, table, smartphones -->
+    <meta name="author" content="Felipe Akel Carvalho Florentino">
+    <meta name="descrition" content="Capítulo 5 - Exemplos 3 - Página 106">
+
+    <link rel="icon" href="img/livrojs.png" type="image/png">
+    <!-- <link rel="stylesheet" href="css/estilo.css"> -->
+
+    <title>Capítulo 5 - Exemplos 3</title>
+</head>
+
+<body>
+    <h1>Capítulo 5 - Exemplos 3 - Página 106</h1>
+
+    <hr>
+    
+    <script>
+        let numero;
+        
+        do{
+            numero = Number(prompt('Número: '));
+            if(numero == 0 || isNaN(numero)){
+                alert('Digite um número válido...');
+            }
+        } while(numero == 0 || isNaN(numero));
+
+        let pares = `Pares entre 1 e ${numero}: \n`;
+        for(x = 2; x <= numero; x = x + 2){
+            pares = pares + x + ', ';
+        }
+        alert(pares);
+
+    </script>
+
+</body>
+
+</html>
